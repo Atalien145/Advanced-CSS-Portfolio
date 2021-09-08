@@ -1,0 +1,181 @@
+.header {
+     padding: 100px;
+     background-image: url(https://m.media-amazon.com/images/I/915cvkC93GL._AC_SX679_.jpg);
+     color: #ffffff;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     background-color: rgba(0, 0, 0, 0.2);
+}
+
+.name {
+     font-size: 60px;
+     color: black;
+     background-image: linear-gradient(to right, orange, blue);
+     transform: skewX(-15deg);
+ }
+
+ a:hover {
+     color: black;
+     background-image: repeating-linear-gradient(gold,#ec62a9);
+     border-radius: 20px;
+     box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232,102 ,236, 1);
+     transform: scale(1.2);
+}
+
+ .section1 {
+    background-image:linear-gradient(purple,blue);
+    width: 400px;
+    border: 5px solid rgb(1, 12, 1);
+    padding: 41px;
+    margin: 50px;
+    height: 400px;
+    float: left;
+    transition: all .4s ease-in-out;
+}
+
+ a {
+     border: 5px solid black;
+     background-color: orangered;
+     transition: all .3s ease-in-out;
+     float: right;
+     margin: 5px;
+}
+
+ .nav {
+     border: black;
+     background-color: rgba(172, 161, 161, 0.73);
+     border-width: 10px;
+ }
+
+.nav a {
+    text-align: center;
+    padding: 14px 20px;
+    cursor:pointer;
+    
+}
+
+.header1 {
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+}
+
+.section2 {
+    background-image: url(https://afremov.com/var/images/product/1200.1200/image_2413_2.jpeg);
+    width: 300px;
+    border: 5px solid rgb(1, 12, 1);
+    padding: 41px;
+    margin: 50px;
+    height: 200px;
+    float: left;
+    transition: all .3s ease-in-out;
+}
+
+.section3 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLOtXS1ly-dMkoACRrCZ-1-06t_uaXHyLEQA&usqp=CAU);
+    width: 300px;
+    border: 5px solid rgb(1, 12, 1);
+    padding: 41px;
+    margin: 50px;
+    height: 200px;
+    float: left;
+}
+
+.section4 {
+    background-image: url(https://digitaldefynd.com/wp-content/uploads/2019/10/best-digital-art-course-class-certification-tutorial-training-online.jpg);
+    width: 300px;
+    border: 5px solid rgb(1, 12, 1);
+    padding: 41px;
+    margin: 50px;
+    height: 200px;
+    float: left;
+}
+
+.section5 {
+    background-image: url(https://assets.puzzlefactory.pl/puzzle/291/385/original.webp);
+    width: 300px;
+    border: 5px solid rgb(1, 12, 1);
+    padding: 41px;
+    margin: 50px;
+    height: 200px;
+    float: left;
+    transition: all .3s ease-in-out;
+}
+
+.section4:hover {
+    opacity: .8;
+    box-shadow: inset 0px 0px 13px rgb(6, 66, 231), 0 0 21px rgb(111, 4, 250);
+    
+}
+
+.section3:hover {
+    opacity: .7;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 13px rgb(197, 4, 236), 0 0 20px rgb(188, 6, 243);
+}
+
+.section2:hover {
+    opacity: .7777;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 13px rgb(213, 236, 4), 0 0 20px rgb(243, 227, 6);
+}
+
+.section1:hover {
+    opacity: .85;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 13px rgb(170, 4, 236), 0 0 20px rgb(196, 6, 243);
+    border-radius: 30px;
+    border: solid 10px gold;
+    
+}
+
+.section5:hover {
+    opacity: .8;
+    box-shadow: inset 0px 0px 13px rgb(231, 6, 201), 0 0 21px rgb(250, 4, 188);
+    border: solid 10px rgb(202, 173, 9);
+    border-radius: 15px;
+    
+}
+
+.p1 {
+   font-size: 25px;
+
+}
+
+.body1 {
+   background-image:  repeating-linear-gradient( rgb(247, 128, 231), rgb(226, 240, 99));
+   
+   
+}
+
+.work1 {
+   border: solid 5px black;
+   box-shadow: inset 0px 0px 13px rgba(232, 102, 236, 1), 0 0 25px rgba(232,102 ,236, 1);
+}
+
+.header1:hover{
+    background-image: repeating-linear-gradient(blue, gold);
+    color: black;
+}
+
+.footer {
+    float: left;
+}
+
+hr {
+    color: black;
+    height: 5px;
+    background-color: black;
+}
+
+@media (max-width: 600px) {
+    a, article {
+      width: 100%;
+      height: auto;
+    }
+}
+@media (max-width: 200px) {
+    a, article {
+        width: 100%;
+        height: auto;
+    }
+}
