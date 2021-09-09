@@ -1,2 +1,4 @@
-![My Webpage](https://user-images.githubusercontent.com/86205940/132703962-5278c0f8-9840-49cd-90fc-274dc59357a2.png)
-# Advanced-CSS-Portfolio
+# Advanced CSS: Portfolio (My Webpage)
+
+This webpage is my first ever webpage and as I progress and learn more code i will edit and transform this page. This page will hold my fututre projects and coding resume as a one stop place to show all of my work.
+
